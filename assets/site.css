@@ -61,3 +61,7 @@
 @media(max-width:950px){.contact-layout{grid-template-columns:1fr;gap:45px}}
 @media(max-width:760px){.values-grid,.service-pills{grid-template-columns:1fr}.contact-form-shell{padding:25px 20px}}
 @media(max-width:600px){.contact-copy h2{font-size:clamp(27px,8vw,40px)}.values-grid{gap:12px}.service-pills a{font-size:13px;padding:16px}.contact-details a{font-size:16px}}
+
+/* Uploaded clearer portraits (2026-10-12). Use natural aspect-ratio scaling and crop, never distort. */
+.intro-picture>img{object-fit:cover;object-position:center 24%;}
+.profile-photo>img{object-fit:cover;object-position:center 39%;}

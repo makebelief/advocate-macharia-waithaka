@@ -34,3 +34,9 @@ Run `python3 -m http.server 8000` in this directory, then open `http://localhost
 - This package contains faithful 4K long-edge upscales as WebP and JPEG under `assets/`. Original source files are preserved with `-original.jpg` suffix.
 - The website uses 1400px WebP previews with responsive 4K `srcset` and no distorted stretching.
 - Enhancement is conservative: local contrast, careful sharpening and Lanczos interpolation. It does NOT fabricate facial features, and cannot fully recover missing detail from the very small original images. For true native 4K detail, obtain the original camera photos.
+
+
+## New supplied advocate photographs (12 October 2026)
+The two portraits have been replaced with the *newly uploaded*, clearer source images. The webpage uses new versioned filenames (`advocate-court-new-*`, `advocate-formal-new-*`) so old cached thumbnails cannot display. A 1150px and a 2048px WebP are served with a 4096px maximum-side option using `srcset`; photograph proportions are preserved with CSS `object-fit:cover`.
+
+Source dimensions: court 1034 × 1024px, office 896 × 1193px. The included 4K files are faithful upscales of the supplied new photographs. **4K pixel dimensions do not mean native 4K photographic detail**. Photos are not AI-altered during website packaging.
