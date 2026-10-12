@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Sitemap: https://advocate-macharia-waithaka.vercel.app/sitemap.xml
