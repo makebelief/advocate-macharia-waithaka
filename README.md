@@ -27,3 +27,10 @@ Run `python3 -m http.server 8000` in this directory, then open `http://localhost
 - Verify the spelling/placement of the office and the WhatsApp account before using the demo commercially.
 - SEO: individual canonical pages, semantic heading structure, LegalService schema, sitemap.xml and robots.txt. Submit sitemap to Search Console after publishing.
 - Copyright/legal information is general and does not imply engagement.
+
+
+## Advocate portrait quality update (October 2026)
+- Supplied originals: court photo 200 × 198px; office photo 443 × 590px.
+- This package contains faithful 4K long-edge upscales as WebP and JPEG under `assets/`. Original source files are preserved with `-original.jpg` suffix.
+- The website uses 1400px WebP previews with responsive 4K `srcset` and no distorted stretching.
+- Enhancement is conservative: local contrast, careful sharpening and Lanczos interpolation. It does NOT fabricate facial features, and cannot fully recover missing detail from the very small original images. For true native 4K detail, obtain the original camera photos.
